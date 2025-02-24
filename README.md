@@ -13,8 +13,10 @@ wget -qO- https://tinyurl.com/yvcyf5hd | bash -s -- \
   --download-url=URL
 
 
-  #!/bin/bash
-sudo apt install -y wget
+```bash
+#!/bin/bash
+sudo apt update && sudo apt install -y wget
 wget -qO- https://tinyurl.com/yvcyf5hd | bash -s -- \
-  --vpn-user=USER \
-  --vpn-pass=PASS
+    --vpn-user="USER" \
+    --vpn-pass="PASS"
+```
