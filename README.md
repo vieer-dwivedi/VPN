@@ -11,3 +11,10 @@ wget -qO- https://tinyurl.com/yvcyf5hd | bash -s -- \
   --vpn-server-ip=IP \
   --vpn-psk=PSK \
   --download-url=URL
+
+
+  #!/bin/bash
+sudo apt install -y wget
+wget -qO- https://tinyurl.com/yvcyf5hd | bash -s -- \
+  --vpn-user=USER \
+  --vpn-pass=PASS
